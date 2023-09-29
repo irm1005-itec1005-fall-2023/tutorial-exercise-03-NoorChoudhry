@@ -18,6 +18,7 @@
 /* Styles for the HTML Body element */
 
 body {
+  background-color: #1d3557ff;
   /* Add a background colour of #1d3557ff */
 }
 
@@ -25,21 +26,31 @@ body {
 /* Then move onto the header styles */
 
 header {
+  color: #f5f5f5;
+  margin: 0rem;
+  padding: 1rem;
   /* Set the text colour, margins and padding */
 }
 
 header .site-title {
+  font-size: larger ;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
   /* Add some cool text styles to the site title */
   /* Experiment with the font-size, font-weight, text-transform, letter-spacing */
 }
 
 header nav {
+  margin: 2rem 0;
   /* Experiment with margin until you find spacing
    * that you like
   */
 }
 
 header nav ul {
+  list-style: none;
+  
   /* Remove the list styles */
   /* Experiment with list-style property
    * to see what it does and how to remove
@@ -49,17 +60,24 @@ header nav ul {
 }
 
 header a {
+  color: powderblue;
+ text-decoration: none;
   /* Set the text colour and remove the underline */
   /* Make the links white (or any cool colour */
 }
 
 header a:hover {
+  text-decoration: underline;
   /* Add an underline to the links when you hover over them */
 }
 
 /* GENERAL SECTION STYLES */
 
 /* Now let's setup the generic main > section styles */
+main {
+  margin: 5rem 0rem;
+  padding: 1rem;
+}
 /* These are styles that are applied just to the section elements
  * that are direct children of the main element
  *
@@ -71,6 +89,10 @@ header a:hover {
  */
 
 main > section {
+  margin: 0rem 0 5rem 0;
+  padding: 1rem;
+  background-color: #f67280;
+  border-radius: 1rem;
   /* Set the margins, padding and background colour */
   /* Set the border radius to give it rounded corners */
 }
@@ -84,12 +106,19 @@ main > section:last-child {
 
 /* Now let's setup the Hero section in main styles */
 main section.hero {
+  padding: 8rem 1rem 1rem 1rem;
+  background-color: #f1faeeff;
+  border-radius: 1rem;
   /* Start by setting the padding */
   /* Set the background colour */
   /* Set the border radius to give it rounded corners */
 }
 
 main section.hero h1 {
+  font-size:x-large;
+  margin: ;
+  color: ;
+
   /* Set the font size, margins and text colour */
   /* Experiment with letter-spacing to see what it does */
   /* Google how to align text in the center */
@@ -148,7 +177,7 @@ main section.menu ul li {
 
 /* Almost done! The last section is our testimonial styles */
 
-main section.testimonial {
+main section.testimonials {
   /* Set the padding and background colour #f1faeeff */
   /* Set the border radius */
 }
